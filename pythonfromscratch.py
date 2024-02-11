@@ -22,4 +22,10 @@ from collections import defaultdict
 word_count = defaultdict(int)
 for word in document:
     word_counts[word] += 1
-    
+
+
+from collections import Counter
+
+c = Counter([0, 1, 2, 0])
+
+print(c)
